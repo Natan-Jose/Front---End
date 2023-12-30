@@ -1,0 +1,47 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Quicksand;
+    text-align: center; 
+    background-color: #CCCCCC; 
+}
+
+table {
+    width: 600px; 
+    background-color: #FFFFFF; 
+}
+
+h1{
+    color: #5F3AA2;
+}
+
+a {
+    color: #5F3AA2; 
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #FF0000; 
+}
+
+a:active {
+    color: #000000; 
+}
+
+.botao-container {
+    display: inline-block;
+  }
+  
+  #meuBotao {
+    transition: opacity 0.3s ease, background-color 0.3s ease; 
+    border-radius: 10px; 
+ 
+  }
+  
+  #meuBotao:hover {
+    opacity: 0.7; 
+  }
+  
+ 
